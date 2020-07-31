@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+
+
+-->
+<com.meetsl.scardview.SCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    app:layout_constraintCircleRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardShadowStartColor="@color/colorAccent"
+    app:cardShadowEndColor="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/abc_vector_test" />
+
+</com.meetsl.scardview.SCardView>
